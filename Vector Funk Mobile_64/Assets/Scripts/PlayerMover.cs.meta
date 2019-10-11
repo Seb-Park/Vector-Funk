@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 6383d08f138c444e7924f5b0aced0ad1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shield: {instanceID: 0}
+  - DeathSound: {instanceID: 0}
+  - PowerUpSound: {instanceID: 0}
+  - powerUpEffect: {fileID: 1341824467644722, guid: c02f1de932bd94da5a8c3f6ee0422c72,
+      type: 2}
+  - jumpSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

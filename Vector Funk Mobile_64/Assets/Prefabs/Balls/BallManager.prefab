@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1455156542310948}
+  m_IsPrefabAsset: 1
+--- !u!1 &1455156542310948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4504559479508070}
+  - component: {fileID: 114054497731446174}
+  - component: {fileID: 114236417033136810}
+  - component: {fileID: 114937267531817176}
+  m_Layer: 0
+  m_Name: BallManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4504559479508070
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455156542310948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114054497731446174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455156542310948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5659212d6418642f0971a464b118e4b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 7, y: 0, z: 0}
+--- !u!114 &114236417033136810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455156542310948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4dd6b533fa6345c08f7da66a8a754a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls:
+  - {fileID: 1858603345341066, guid: f66f0837f4a5b45d5a3a200134b801db, type: 2}
+  - {fileID: 1021748863929772, guid: 9f8ebbae10ed54c67b3981e2310f55f6, type: 2}
+  - {fileID: 1885538902792566, guid: 4ad885351d0514ea69046f055ebd357f, type: 2}
+  - {fileID: 1143222328236854, guid: 165e1bfe318354817a1b6c2b8eb50ad6, type: 2}
+  - {fileID: 1727729591143746, guid: 62825bc8a3b4547e18599b716e116541, type: 2}
+  - {fileID: 1915846075641772, guid: 7f01ed449ca4043c29b3bb71b73add1c, type: 2}
+  - {fileID: 1758492696486828, guid: 46ed32b7cb13b426cb962ba686e96abc, type: 2}
+  - {fileID: 1733074962170402, guid: 0d39bfe40abc7468fb8d1f29ec9ae97a, type: 2}
+  - {fileID: 1591508598629804, guid: d73d5af3171f0456ab0487dcdb833923, type: 2}
+  - {fileID: 1858603345341066, guid: 9078e5b7dfaa246809e738882cd3c068, type: 2}
+  - {fileID: 1228889331662820, guid: ac0ebafe139124f8cb6b3b94ab06a1bd, type: 2}
+  - {fileID: 1363618231171184, guid: fdb498644b2de4810bfbde3d92045480, type: 2}
+  - {fileID: 1858603345341066, guid: eff20440749b74e0aad5892edbf3170e, type: 2}
+  - {fileID: 1685008616901296, guid: fbbcbc46479b14a6b934f3df9cbca657, type: 2}
+  - {fileID: 1342389446693738, guid: 2b929783c2d564c268af98ae7bf2ebd0, type: 2}
+  - {fileID: 1683128987069258, guid: e01ee0c9c8d13427a87fcedfc0d38b05, type: 2}
+  - {fileID: 1640634958065562, guid: 96619d16b90da4dd8a966ea4ce95a2e9, type: 2}
+  - {fileID: 1858603345341066, guid: 067bb501e68f345d98988f1125a8c066, type: 2}
+--- !u!114 &114937267531817176
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455156542310948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1140f71152dc4fb3875c8dd5d043fc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotOffset: {x: 0, y: 0, z: 0}
