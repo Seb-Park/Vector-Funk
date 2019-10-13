@@ -9,3 +9,5 @@ FEATURES:
   <li>Unlock a new crystal every 10 meters and use them to buy new balls.</li>
   <li>Visit the costume shop by clicking the rainbow ball on the screen.</li>
 </ul>
+
+https://play.google.com/store/apps/details?id=com.SparkSoft.VectorFunk
